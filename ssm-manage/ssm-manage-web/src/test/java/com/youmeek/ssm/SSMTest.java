@@ -1,6 +1,7 @@
 package com.youmeek.ssm;
 
-import com.youmeek.ssm.manage.pojo.SysUser;
+
+
 import com.youmeek.ssm.manage.service.SysUserService;
 import org.apache.log4j.Logger;
 import org.junit.Test;
@@ -21,7 +22,9 @@ public class SSMTest {
 
 	@Test
 	public void test1() {
-		SysUser sysUser = sysUserService.getById(1L);
-		logger.info("--------------------------------" + sysUser.toString());
+		System.out.println("比哈");
+
+		//SysUser sysUser = sysUserService.getById(1L);
+		//logger.info("--------------------------------" + sysUser.toString());
 	}
 }
